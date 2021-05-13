@@ -1,0 +1,215 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content ="width=device-width,initia-scale=1.0">
+  <style>
+    #main{
+      margin-top:20px;
+      margin-bottom:20px;   
+      margin-left:2px;
+      margin-right:2px;
+      border-radius:5px;
+      border:2px grey solid;
+    }
+    #main2{
+    padding: 0;
+   }
+
+   #main3{
+     display:flex;
+   }
+   #list1{
+    list-style-type:none;  
+    
+   }
+   #list2{
+    list-style-type:none;  
+   }
+   #mark1{
+     color:#DAA520;
+     padding-right:15px;
+
+   }
+   #mark2{
+     display:inline-block;
+   }
+  
+  #text_hour{
+    color:grey;
+    font:17px bolder;
+
+  }
+  #image{
+    position: relative;
+    z-index:1;
+  }
+  #pos1{
+    position:absolute;
+    top:20%;
+    left:0%;
+    z-index:2;
+   font:40px;
+   background: blue;
+   width:150px;
+   height:45px;
+  }
+  #pos1 p{
+    text-align: center;
+    font:bolder;
+    color:white;
+    padding:10px;
+  }
+
+  #pos2{
+    position:absolute;
+    top:20%;
+    left:0%;
+    z-index:2;
+   font:40px;
+   background: yellow;
+   width:150px;
+   height:45px;
+  }
+  #pos2 p{
+    text-align: center;
+    font:bolder;
+    color:black;
+    padding:10px;
+  }
+  
+  #bot1{
+  
+    margin-right:1px;
+    margin-left:1px;
+  }
+  #font1{
+    font:30px bold;
+  }
+  #font2{
+    font:10px;
+  }
+  
+
+
+</style>
+
+<title>Here</title>
+
+</head>
+<body>
+<div class="container "> 
+  <div class="row "id="main" >
+
+    <div class="col-lg-5 col-sm-12 p-0 m-0 "id="image" >
+      <div id="pos2">
+        <p >Круглый год</p> </div>
+
+      <img  src="https://images.pexels.com/photos/6976189/pexels-photo-6976189.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100"  alt="">
+      </div>
+      <div class="col-lg-7 col-sm-12 p-1 m-0" >
+     
+      <h5> АКЦИЯ - Обзорная экскурсия по рекам и каналам с остановкой Hop on Hop Off 2019</h5>
+      <p id="text_hour"><i class="fa fa-hourglass-end " aria-hidden="true"></i><span id="text_hour"> 2 часа</span></p>
+      <ul id="main2">
+      <li  id="list1" > <i class="fa fa-check float-start"  aria-hidden="true" id="mark1"></i>Билет на целый день</li>
+      <li  id="list1"><i class="fa fa-check" aria-hidden="true" id="mark1"></i>Неограниченное число катаний </li>
+      <li  id="list1"><i class="fa fa-check" aria-hidden="true" id="mark1"></i>6 остановок у главных достопримечательностей </li>
+      <li  id="list1"><i class="fa fa-check" aria-hidden="true" id="mark1"></i>Ближайший рейс сегодня
+        <button type="button" class="btn btn-primary btn-sm" id="bot1">12:30</button>
+        <button type="button" class="btn btn-primary btn-sm" id="bot1">15:30</button> 
+        <button type="button" class="btn btn-primary btn-sm" id="bot1">18:30</button>
+      </li>
+      </ul>
+       
+      <div class="row">
+        <div class="col-lg-3 col-6">
+          <p ><span id="font1">900 ₽</span> <br> <span id="font2">1200 ₽ на причале </span> </p>
+           </div>
+      <div class="col-lg-9 col-6">
+      <button type="button" class="btn btn-warning btn-lg" >Подробнее</button>
+    </div>
+    </div>
+
+
+    </div>
+  </div>
+
+    <div class="row" id="main" >
+
+    <div class="col-lg-5 col-sm-12 p-0 m-0"id="image" >
+      <div id="pos1">
+     <p >Новинка</p> </div>
+   <img  src="https://images.pexels.com/photos/4734649/pexels-photo-4734649.jpeg?cs=srgb&dl=pexels-cottonbro-4734649.jpg&fm=jpg" class="d-block w-100" alt="">  
+
+      </div>
+      <div class="col-lg-7 col-sm-12 p-1 m-0">
+      <h5> АКЦИЯ - Обзорная экскурсия по рекам и каналам с остановкой Hop on Hop Off 2019</h5>
+      <p id="text_hour"><i class="fa fa-hourglass-end " aria-hidden="true"></i><span id="text_hour"> 2 часа</span></p>
+      <ul id="main2">
+      <li id="list1"><i class="fa fa-check " aria-hidden="true" id="mark1"></i>Билет на целый день</li>
+      <li id="list1"><i class="fa fa-check" aria-hidden="true" id="mark1"></i>Неограниченное число катаний </li>
+      <li id="list1"><i class="fa fa-check" aria-hidden="true" id="mark1"></i>6 остановок у главных достопримечательностей </li>
+      <li id="list1"><i class="fa fa-check" aria-hidden="true" id="mark1"></i>Ближайший рейс сегодня <button type="button" class="btn btn-primary btn-sm" id="bot1">12:30</button>
+        <button type="button" class="btn btn-primary btn-sm"  id="bot1">15:30</button> <button type="button"  id="bot1" class="btn btn-primary btn-sm">18:30</button> <button type="button" class="btn btn-primary btn-sm"  id="bot1">21:30</button> 
+      </li>
+      </ul>
+    
+      <div class="row">
+        <div class="col-lg-3 col-6">
+      <p ><span id="font1">900 ₽</span> <br> <span id="font2">1200 ₽ на причале </span> </p>
+       </div>
+      <div class="col-lg-9 col-6">
+      <button type="button" class="btn btn-warning btn-lg" >Подробнее</button>
+    </div>
+    </div>
+  </div>
+
+</div>
+  <div class="row" id="main" >
+
+    <div class="col-lg-5 col-sm-12 p-0 m-0"id="image" >
+   <img  src="https://images.pexels.com/photos/4946443/pexels-photo-4946443.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100" alt="">  
+
+      </div>
+      <div class="col-lg-7 col-sm-12 p-2 m-0">
+      <h5> АКЦИЯ - Обзорная экскурсия по рекам и каналам с остановкой Hop on Hop Off 2019</h5>
+      <p id="text_hour"><i class="fa fa-hourglass-end " aria-hidden="true"></i><span id="text_hour"> 2 часа</span></p>
+      <ul id="main2">
+      <li id="list1"><i class="fa fa-check " aria-hidden="true" id="mark1"></i>Билет на целый день</li>
+      <li id="list1"><i class="fa fa-check" aria-hidden="true" id="mark1"></i>Неограниченное число катаний </li>
+      <li id="list1"><i class="fa fa-check" aria-hidden="true" id="mark1"></i>6 остановок у главных достопримечательностей </li>
+      <li id="list1"><i class="fa fa-check" aria-hidden="true" id="mark1"></i>Ближайший рейс сегодня <button type="button" class="btn btn-primary btn-sm" id="bot1">12:30</button>
+        <button type="button" class="btn btn-primary btn-sm" id="mark2">15:30</button> <button type="button" class="btn btn-primary btn-sm" id="mark2">18:30</button>
+       <button type="button" (click)="showText()" class ="btn btn-primary btn-sm" id="mark2"> 
+          {{ isReadMore ? 'Ещё ': 'скрыть' }}
+        </button>     
+        <div [ngClass]="{'limitTextHeight': isReadMore}" id="mark2">
+          <button type="button" class="btn btn-primary btn-sm"  id="mark2" >20:30</button>
+          <button type="button" class="btn btn-primary btn-sm" id="mark2">22:30</button>
+        </div>
+       
+       
+       
+      </li>
+      </ul>
+    
+      <div class="row">
+        <div class="col-lg-3 col-6">
+      <p ><span id="font1">900 ₽</span> <br> <span id="font2">1200 ₽ на причале </span> </p>
+       </div>
+      <div class="col-lg-9 col-6">
+      <button type="button" class="btn btn-warning btn-lg" >Подробнее</button>
+    </div>
+    </div>
+
+
+</div>
+</div>
+
+ </div>
+
+</body>
+
+</html>
